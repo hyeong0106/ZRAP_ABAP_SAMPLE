@@ -1,0 +1,40 @@
+@Metadata.layer: #CORE
+annotate entity ZRAP_C_ZDTV3T_AR_HEAD with
+{
+  @EndUserText.label:  '회사코드'
+  @UI.selectionField: [{ position:1 }]
+  bukrs;
+
+  @UI.lineItem: [{ label:  '공급자 사업자번호' }]
+  su_id;
+
+  @UI.lineItem: [{ label:  '공급자 사업자명' }]
+  su_name;
+
+  @UI.lineItem: [{ label:  '공급자 대표자명' }]
+  su_repres;
+
+  @UI.lineItem: [{ label:  '공급자 주소' }]
+  su_addr;
+
+  @UI.lineItem: [{ label:  '공급자 업종' }]
+  su_bustype;
+
+  @UI.lineItem: [{ label:  '공급자 업태' }]
+  su_indtype;
+
+  @UI.lineItem: [{ label:  '공급자 담당부서' }]
+  su_deptname;
+
+  @UI.lineItem: [{ label:  '공급자 담당자명' }]
+  su_persname;
+
+  @UI.lineItem: [{ label:  '공급자 전화번호' }]
+  su_telno;
+
+  @UI.lineItem: [{ label:  '공급자 핸드폰번호' }]
+  su_hpno;
+
+  @UI.lineItem: [{ label:  '공급자 이메일' }]
+  su_email;
+}

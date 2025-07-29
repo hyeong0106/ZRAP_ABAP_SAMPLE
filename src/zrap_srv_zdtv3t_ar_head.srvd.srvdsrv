@@ -1,0 +1,4 @@
+@EndUserText.label: 'ZDTV3T_AR_HEAD Service Definition'
+define service ZRAP_SRV_ZDTV3T_AR_HEAD {
+  expose ZRAP_C_ZDTV3T_AR_HEAD;
+}
